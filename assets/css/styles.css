@@ -5,7 +5,7 @@ header {
 }
 /* Logo styling */
 .logo-text {
-    color: #FFC745;
+    color: white;
     font-size: 280%;
     text-decoration: none;
     float: left;
@@ -19,7 +19,18 @@ header {
     display: inline-block;
     list-style-type: none;
     margin-right: 40px;
+    color: #FFC745;
+    text-decoration: none;
 }
+.menu-text a {
+    color: #FFC745;
+    text-decoration: none;
+}
+#menu a:hover {
+    border-bottom: 1px solid #FFC745
+}
+
+
 /* Footer styling*/
 footer {
     height: 125px;
