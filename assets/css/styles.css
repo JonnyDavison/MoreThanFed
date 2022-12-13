@@ -39,6 +39,15 @@ header {
     margin: 0 auto;
     display: block;
 }
+.tagline {
+    font-size: xx-small;
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+
+}
 
 /* Menu styling */
 #menu-block {
@@ -64,15 +73,42 @@ header {
 }
 
 /*Section styles home page */
-
-/* About page sections */
-#about {
+#about-us {
     text-align: left;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 200px;
+    max-width: 400px;
+    float: right;
+}
+#about-us h4 {
+    text-transform: lowercase;
+}
+.home-pic {
+    margin-left: 250px;
+    margin-top: 200px;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+
 }
 
+/* About page sections */
+#about {
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 200px;
+}
+/*About page styling */
+/* Food page styling */
+/* Newsletter styling page */
+#newsletter-title {
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 200px;
+}
 /* Footer styling*/
 footer {
     height: 125px;
