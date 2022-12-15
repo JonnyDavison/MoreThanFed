@@ -81,7 +81,7 @@ header {
 }
 
 
-/*Section styles home page */
+/* Home page section styles */
 #homepage-intro {
     text-align: left;
     margin-left: 100px;
@@ -89,6 +89,7 @@ header {
     margin-top: 200px;
     max-width: 400px;
     float: right;
+    
 }
 
 .home-pic {
@@ -97,6 +98,7 @@ header {
     width: 250px;
     height: 250px;
     display: inline-block;
+    border: 3px solid slategrey;
 
 }
 
