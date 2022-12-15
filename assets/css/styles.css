@@ -43,6 +43,7 @@ header {
     margin: 0 auto;
     display: block;
 }
+
 .tagline {
     font-size: xx-small;
     color: white;
@@ -75,6 +76,12 @@ header {
 #menu a:hover {
     border-bottom: 1px solid whitesmoke
 }
+/* intro sections*/
+.page-intro{
+    margin-top: 200px;
+    text-align: center;
+}
+
 
 /*Section styles home page */
 #about-us {
@@ -102,8 +109,60 @@ header {
     margin-right: 200px;
     margin-top: 200px;
 }
-/*About page styling */
+
+/* Think page styling */
+
+/*Think flexbox*/
+
+
+.think-container {
+    display: flex;
+    padding: 250px;
+    justify-content: center;
+
+}
+
+.think-article {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid slategrey;
+
+}
+
+.think-a1 {
+    min-height: 200px;
+    display: flex;
+   
+}
+/* think-a1 image style*/
+.think-image {
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+}
+
+.think-a2 {
+    min-height: 200px;
+    display: flex;
+}
+
+.think-a3 {
+    min-height: 200px;
+    display: flex;
+}
+
+.think-a4 {
+    min-height: 200px;
+    display: flex;
+}
+
+.think-a5 {
+    min-height: 200px;
+    display: flex;
+}
+
 /* Food page styling */
+
 /* Newsletter styling page */
 #newsletter-title {
     text-align: left;
@@ -111,6 +170,7 @@ header {
     margin-right: 200px;
     margin-top: 200px;
 }
+
 /* Footer styling*/
 footer {
     height: 125px;
