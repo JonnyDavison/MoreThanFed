@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Roboto+Condensed:wght@300&display=swap');
 
-* {
-    outline: 1px solid #f00 !important;
-}
+
 
 body {
     font-family: karla;
@@ -84,7 +82,7 @@ header {
 
 
 /*Section styles home page */
-#about-us {
+#homepage-intro {
     text-align: left;
     margin-left: 100px;
     margin-right: 100px;
@@ -104,10 +102,11 @@ header {
 
 /* About page sections */
 #about {
-    text-align: left;
+    text-align: center;
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 200px;
+    
 }
 
 /* Think page styling */
@@ -117,15 +116,17 @@ header {
 
 .think-container {
     display: flex;
-    padding: 250px;
+    padding: 10px;
     justify-content: center;
 
 }
 
 .think-article {
-    width: 200px;
+    max-width: 200px;
+    max-height: 200px;
     margin: 10px;
     border: 3px solid slategrey;
+    
 
 }
 
@@ -162,6 +163,44 @@ header {
 }
 
 /* Food page styling */
+
+/* food flexbox */
+.food-container {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+
+}
+
+.food-article {
+    width: 200px;
+    max-height: 200px;
+    margin: 10px;
+    border: 3px solid slategrey;
+
+}
+
+.food-a1 {
+    min-height: 200px;
+    display: flex;
+   
+}
+/* food image style*/
+.food-image {
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+}
+
+.food-a2 {
+    min-height: 200px;
+    display: flex;
+}
+
+.food-a3 {
+    min-height: 200px;
+    display: flex;
+}
 
 /* Newsletter styling page */
 #newsletter-title {
