@@ -48,7 +48,7 @@
 
                 <div>
                     <label for="fname">First Name:</label>
-                    <input id="fname" name="fname" type="text" class="text-box">
+                    <input id="fname" name="fname" type="text" class="text-box" required>
                 </div>
                 <div>
                     <label for="lname">Last Name:</label>
@@ -61,14 +61,20 @@
 
                 <div>
                     <label for="email">Contact E-mail:</label>
-                    <input type="text" class="text-box">
+                    <input type="text" name="email" id="email" class="text-box" required>
                 </div>
-                <div>
-                    <label for="ideas">Share your ideas:</label>
-                    <br>
-                    <textarea name="ideas" id="ideas" cols="30" rows="10" class="text-box"></textarea>
-                </div>
-                <div>
+                
+               
+                <label for="how">How did you hear about us?</label>
+            <select id="how" name="how" class="text-box">
+                <option value="facebook">Facebook</option>
+                <option value="instagram">Instagram</option>
+                <option value="twitter">Twitter</option>
+                <option value="events">Events or Pop-ups</option>
+                <option value="other">Other</option>
+            </select>
+               
+            <div>
                     <input type="submit" value="Sign up!" class="signup-button">
                 </div>
             </form>
