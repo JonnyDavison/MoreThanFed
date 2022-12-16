@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        
+
         <a href="index.html" class="logo"> <img class="page-logo" src="../images/mtflogo2.jpeg"
                 alt="More than Fed logo">
         </a>
@@ -33,13 +33,46 @@
 
     <section>
         <div id="newsletter-title">
-            <h2>
-                <bold>Sign Up </bold><i class="fa-regular fa-newspaper"></i>
-            </h2>
-            <h4>Sign up to the weekly newsletter to keep upto date with food, thought, and
-                recipes!</h4>
+            <h1>
+                Sign Up <i class="fa-regular fa-newspaper"></i>
+            </h1>
+            <p>Join our members and sign up to the weekly newsletter to keep upto date with exclusive content on all
+                things MTF food, thought, and
+                recipes!</p>
         </div>
-        <form action="#" method="post" class="sign-up"></form>
+        <section class="sign-up-form">
+<!-- 
+    need a link for the form 
+-->
+            <form action="#" method="post" class="sign-up">
+
+                <div>
+                    <label for="fname">First Name:</label>
+                    <input id="fname" name="fname" type="text" class="text-box">
+                </div>
+                <div>
+                    <label for="lname">Last Name:</label>
+                    <input id="lname" name="lname" type="text" class="text-box">
+                </div>
+                <div>
+                    <label for="dob">Date of Birth:</label>
+                    <input name="dob" id="dob" type="date" class="text-box">
+                </div>
+
+                <div>
+                    <label for="email">Contact E-mail:</label>
+                    <input type="text" class="text-box">
+                </div>
+                <div>
+                    <label for="ideas">Share your ideas:</label>
+                    <br>
+                    <textarea name="ideas" id="ideas" cols="30" rows="10" class="text-box"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Sign up!" class="signup-button">
+                </div>
+            </form>
+        </section>
 
     </section>
     <footer>
