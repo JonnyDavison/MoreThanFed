@@ -75,13 +75,18 @@ header {
 
 
 /* Home page section styles */
-#homepage-intro {
+.home-page-hero {
+    background-image: url("../images/cattleongrass.jpg");
+}
+
+.homepage-intro {
     text-align: left;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 200px;
     max-width: 400px;
     float: right;
+    
 
 }
 
@@ -91,7 +96,7 @@ header {
     width: 250px;
     height: 250px;
     display: inline-block;
-    border: 3px solid slategrey;
+    border: 1px solid slategrey;
 
 }
 
@@ -120,7 +125,7 @@ header {
     max-width: 200px;
     max-height: 200px;
     margin: 10px;
-    border: 3px solid slategrey;
+    border: 1px solid slategrey;
 
 
 }
@@ -156,6 +161,14 @@ header {
 .think-a5 {
     min-height: 200px;
     display: flex;
+}
+
+.video {
+    display: flex;
+
+}
+.danbarbervid{
+    margin: auto;
 }
 
 /* Food page styling */
