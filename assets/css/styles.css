@@ -31,7 +31,8 @@ header {
 /* Logo styling */
 .logo {
     float: left;
-    margin: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
     border: 1px solid slategray;
     border-radius: 50%;
 
@@ -45,7 +46,7 @@ header {
     display: block;
 }
 
-/* Menu styling */
+/* Nav Menu styling */
 #menu-block {
     float: right;
     margin-top: 75px;
@@ -56,6 +57,7 @@ header {
     list-style-type: none;
     margin-right: 30px;
     text-decoration: none;
+    position: relative;
 }
 
 .menu-text a {
@@ -77,19 +79,19 @@ header {
 
 /* Home page section styles */
 #home-page-hero {
-    height: 500px;
+    height: 1200px;
     width: 100%;
     position: relative;
-   
-
+    overflow: hidden;
 
 }
 
 .homepage-intro {
     position: absolute;
-    top: 10px;
-    right: 10px;      
-    }
+    top: 30%;
+    left: 10px;
+    color: #fff;
+}
 
 
 /* About page sections */
@@ -154,13 +156,15 @@ header {
     min-height: 200px;
     display: flex;
 }
+
 /* Think Video */
 .video {
     display: flex;
     padding-top: 50px;
     padding-bottom: 200px;
 }
-.danbarbervid{
+
+.danbarbervid {
     margin: auto;
 }
 
@@ -205,12 +209,13 @@ header {
     min-height: 200px;
     display: flex;
 }
+
 /* Article styling*/
 article {
-   padding-left: 200px;
-   padding-right: 200px;
-   padding-top: 200px;
-   padding-bottom: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 /* article > p {
@@ -224,10 +229,11 @@ article {
     margin-right: 200px;
     margin-top: 20px;
 }
+
 /* form sign up */
 .contact {
     display: flex;
-    
+
 }
 
 .contact-us {
@@ -240,10 +246,11 @@ article {
 }
 
 
-.sign-up-form, .contact {
+.sign-up-form,
+.contact {
     display: flex;
     padding-bottom: 200px;
- }
+}
 
 .sign-up {
     margin: auto;
@@ -274,7 +281,8 @@ article {
     color: #000000;
 }
 
-.signup-button, .send-button {
+.signup-button,
+.send-button {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
@@ -286,7 +294,8 @@ article {
     margin: auto;
 }
 
-.signup-button:hover, .send-button:hover {
+.signup-button:hover,
+.send-button:hover {
     background-color: #fafafa;
     color: #FFC745;
 }
@@ -335,6 +344,102 @@ footer {
     color: #FFC745;
 
 }
+
 .copyright {
     color: #fff;
+}
+
+/* media quries*/
+/* for large to medium screens/tablets from 1200px down*/
+@media screen and (max-width: 1200px) {
+    .homepage-intro .page-intro {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    .title-text {
+        margin-bottom: 0;
+    }
+
+    .homepage-intro>h2 {
+        padding: 30px;
+        margin: 0;
+    }
+    .menu-text {
+        padding: 0;
+    }
+
+    #menu-block>div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+       
+
+    }
+    #menu-block {
+    
+        margin-top: 0;
+
+    }
+    
+    #menu-block li {
+        display: inline-block;
+        list-style-type: none;
+        margin-right: 30px;
+        text-decoration: none;
+        position: relative;
+    }
+}
+  
+
+/* for medium screens from 950px width down*/
+
+@media screen and (max-width:950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading,
+    .right-about-heading {
+        width: inherit;
+
+    }
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p,
+    .right-about-heading p {
+        text-align: center;
+        padding: 0 20 px;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+}
+
+/* for small screen sizes less than 800px */
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
 }
