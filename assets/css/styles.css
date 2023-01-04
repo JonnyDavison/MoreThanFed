@@ -53,7 +53,7 @@ header {
 #menu-block li {
     display: inline-block;
     list-style-type: none;
-    margin-right: 40px;
+    margin-right: 30px;
     text-decoration: none;
 }
 
@@ -232,23 +232,24 @@ article {
     margin-top: 200px;
 }
 /* form sign up */
+.contact {
+    display: flex;
+    
+}
+
 .contact-us {
     margin: auto;
     color: #fff;
-    max-width: 150px;
+    background-color: rgb(0, 92, 63);
+    max-width: 400px;
     left: 10%;
     padding: 30px;
-    background-color: #005C3F;
-}
-.contact {
-    clear: left;
-    display: flex;
-   
 }
 
+
 .sign-up-form {
-    clear: left;
     display: flex;
+    padding-bottom: 200px;
  }
 
 .sign-up {
