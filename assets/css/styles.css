@@ -21,10 +21,11 @@ body {
 header {
     background-color: #005C3F;
     height: 150px;
-    position: fixed;
+    position: fixed absolute;
     width: 100%;
     left: 0;
     top: 0;
+
 }
 
 /* Logo styling */
@@ -64,41 +65,32 @@ header {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid whitesmoke
+    border-bottom: 1px solid #FFC745;
 }
 
 /* intro sections*/
 .page-intro {
-    margin-top: 200px;
+    margin-top: 20px;
     text-align: center;
 }
 
 
 /* Home page section styles */
-.home-page-hero {
-    background-image: url("../images/cattleongrass.jpg");
+#home-page-hero {
+    height: 500px;
+    width: 100%;
+    position: relative;
+   
+
+
 }
 
 .homepage-intro {
-    text-align: left;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 200px;
-    max-width: 400px;
-    float: right;
-    
+    position: absolute;
+    top: 10px;
+    right: 10px;      
+    }
 
-}
-
-.home-pic {
-    margin-left: 250px;
-    margin-top: 200px;
-    width: 250px;
-    height: 250px;
-    display: inline-block;
-    border: 1px solid slategrey;
-
-}
 
 /* About page sections */
 #about {
@@ -230,7 +222,7 @@ article {
     text-align: center;
     margin-left: 200px;
     margin-right: 200px;
-    margin-top: 200px;
+    margin-top: 20px;
 }
 /* form sign up */
 .contact {
@@ -248,7 +240,7 @@ article {
 }
 
 
-.sign-up-form {
+.sign-up-form, .contact {
     display: flex;
     padding-bottom: 200px;
  }
