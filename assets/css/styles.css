@@ -126,11 +126,7 @@ header {
     margin-top: 10px;
 }
 
-.think-a1 {
-    min-height: 200px;
-    display: flex;
 
-}
 
 .think-anchor {
     margin-bottom: 25px;
@@ -147,6 +143,11 @@ header {
     border: 1px solid slategrey;
 }
 
+.think-a1 {
+    min-height: 200px;
+    display: flex;
+
+}
 .think-a2 {
     min-height: 200px;
     display: flex;
@@ -196,18 +197,23 @@ header {
     border: 3px solid slategrey;
 
 }
-
-.food-a1 {
-    min-height: 200px;
-    display: flex;
-
+.food-anchor {
+    margin-bottom: 25px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
 }
-
 /* food image style*/
 .food-image {
     max-width: 200px;
     max-height: 200px;
     margin: auto;
+}
+
+.food-a1 {
+    min-height: 200px;
+    display: flex;
+
 }
 
 .food-a2 {
