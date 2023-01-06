@@ -12,17 +12,17 @@ body {
 
 .title-text {
     display: inline-block;
-    margin-top: 75px;
+    margin-top: 40px;
     font-family: Roboto Condensed, Karla, sans-serif;
     color: white;
     font-weight: 100;
     text-transform: uppercase;
-    font-size: 350%;
+    font-size: 450%;
 }
 
 header {
     background-color: #005C3F;
-    height: 150px;
+    height: 175px;
     position: fixed absolute;
     width: 100%;
     left: 0;
@@ -78,6 +78,7 @@ header {
 .page-intro {
     margin-top: 20px;
     text-align: center;
+    font-size: 25px;
 }
 
 
@@ -95,6 +96,7 @@ header {
     top: 30%;
     left: 10px;
     color: #fff;
+    font-size: 40px;
 }
 
 
@@ -235,11 +237,18 @@ article {
     padding-right: 200px;
     padding-top: 200px;
     padding-bottom: 200px;
+    
+}
+article > h1 {
+    font-size: 40px;
 }
 
-/* article > p {
-    padding: 0 , 100px, 0, 100px;
-} */
+article > h2 {
+    font-size: 35px;
+}
+article > p {
+    font-size: 30px;
+}
 
 /* Newsletter styling page */
 #newsletter-title {
@@ -339,6 +348,10 @@ article {
 .map-title {
     margin-top: 20px;
     text-align: center;
+}
+
+.map-title h2 {
+    font-size: xx-large;
 }
 
 .map {
