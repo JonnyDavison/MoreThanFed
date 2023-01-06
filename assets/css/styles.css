@@ -78,7 +78,7 @@ header {
 .page-intro {
     margin-top: 20px;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 
@@ -93,19 +93,37 @@ header {
 
 .homepage-intro {
     position: absolute;
-    top: 30%;
-    left: 10px;
-    color: #fff;
+    top: 10%;
+    color:#000000;
     font-size: 40px;
+    background: #fff;
+    width: 90%;
+    left: 5%;
+    padding: 0;
+}
+.homepage-intro p {
+    font-size: 30px;
 }
 
-
 /* About page sections */
-#about {
+#aboutpage {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;    
+
+}
+
+.about-page-text {
+    position: absolute;
+    top: 5%;   
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #fff;
+    width: 75%;
+    left: 12.5%;
     text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 200px;
 
 }
 
@@ -432,7 +450,6 @@ footer {
     }
 
     .homepage-intro>h2 {
-        padding: 30px;
         margin: 0;
     }
 
