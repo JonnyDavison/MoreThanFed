@@ -33,27 +33,24 @@ header {
 }
 
 /* Logo styling */
-.logo {
-    float: left;
-    margin-left: 40px;
-    margin-right: 40px;
-    border: 1px solid slategray;
-    border-radius: 50%;
-
-}
 
 .page-logo {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    margin: 0 auto;
+    float: left;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
     display: block;
+    border: 1px solid slategray;
 }
 
 /* Nav Menu styling */
 #menu-block {
     float: right;
-    margin-top: 75px;
+    
+    
 }
 
 #menu-block li {
@@ -467,7 +464,7 @@ footer {
     }
 
     #menu-block {
-
+        margin-bottom: auto;
         margin-top: 0;
 
     }
@@ -503,47 +500,81 @@ footer {
 /* for medium screens from 950px width down*/
 
 @media screen and (max-width:950px) {
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
+    .logo {
+        height: 100px;
+        width: 100px;
+        padding: 20px;
     }
-
-    #cover-text {
-        left: 0;
-    }
-
-    #club-ethos {
-        width: 90%;
+    .homepage-intro .page-intro {
+        width: 65%;
         height: 1200px;
         margin: 0 auto;
+        font-size: 75%;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
-    .left-about-heading,
-    .right-about-heading {
-        width: inherit;
-
+    .title-text {
+        margin-bottom: 0;
+        font-size: 250%;
     }
 
-    .left-about-heading h2,
-    .right-about-heading h2 {
+    .homepage-intro>h2 {
+        margin: 0;
+        font-size: 125%;
+    }
+
+    .homepage-intro>p {
+        font-size: 65%;
+    }
+
+   
+    .menu-text {
+        padding: 0;
+    }
+
+    #menu-block>div {
         width: 100%;
-        text-align: center;
+        clear: both;
+        height: 150px;
+        padding: 0;
+
+
     }
 
-    .left-about-heading p,
-    .right-about-heading p {
-        text-align: center;
-        padding: 0 20 px;
+    #menu-block {
+        margin-bottom: auto;
+        margin-top: 0;
+
     }
 
-    #photos {
+    #menu-block li {
+        display: inline-block;
+        list-style-type: none;
+        margin-right: 30px;
+        text-decoration: none;
+        position: relative;
+    }
+
+    header {
+        height: 200px;
+    }
+
+    .think-container {
+        margin: 0 auto;
+        display: block;
         column-count: 3;
+        justify-content: center;
+        
     }
-}
 
+       .think-image {
+        width: 100%;
+        height: 100%;
+        margin: 20 auto;
+    }
+
+}
 /* for small screen sizes less than 800px */
 @media screen and (max-width: 800px) {
     #photos {
