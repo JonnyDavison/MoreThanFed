@@ -226,6 +226,9 @@ header {
     display: flex;
 }
 
+.peggychanvid {
+    margin: auto;
+}
 /* Article styling*/
 article {
     padding-left: 200px;
