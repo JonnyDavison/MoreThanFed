@@ -207,7 +207,7 @@ header {
 }
 /* food image style*/
 .food-image {
-    max-width: 200px;
+    width: 100%;
     max-height: 200px;
     margin: auto;
 }
@@ -247,6 +247,12 @@ article > h2 {
     font-size: 35px;
 }
 article > p {
+    font-size: 30px;
+}
+article > ul {
+    font-size: 30px;
+}
+table {
     font-size: 30px;
 }
 
