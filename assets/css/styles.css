@@ -290,6 +290,8 @@ article > ul {
 }
 table {
     font-size: 30px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* Newsletter styling page */
