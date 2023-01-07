@@ -14,7 +14,7 @@ body {
     display: inline-block;
     margin-top: 40px;
     font-family: Roboto Condensed, Karla, sans-serif;
-    color: white;
+    color: lightgrey;
     font-weight: 100;
     text-transform: uppercase;
     font-size: 450%;
@@ -96,6 +96,9 @@ header {
     width: 75%;
     left: 12.5%;
     text-align: center;
+    background-color: lightgrey;
+    border-radius: 15px 50px 30px;
+
 }
 .textcontainter-slim {
     position: absolute;
@@ -106,6 +109,8 @@ header {
     width: 50%;
     left: 25%;
     text-align: center;
+    background-color: lightgrey;
+    border-radius: 15px 50px 30px;
 }
 
 
@@ -129,6 +134,8 @@ header {
     left: 10%;
     padding-right: 20px;
     text-align: right;
+    background-color: lightgrey;
+    border-radius: 15px 50px 30px;
 }
 .homepage-intro h2, h3 {
     margin: 0;
@@ -262,10 +269,10 @@ header {
 }
 /* Article styling*/
 article {
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 75px;
+    padding-bottom: 75px;
     
 }
 article > h1 {
