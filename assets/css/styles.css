@@ -77,6 +77,37 @@ header {
     text-align: center;
     font-size: 30px;
 }
+/* Background Image sections */
+#background-img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;    
+
+}
+
+.textcontainter {
+    position: absolute;
+    top: 5%;   
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #fff;
+    width: 75%;
+    left: 12.5%;
+    text-align: center;
+}
+.textcontainter-slim {
+    position: absolute;
+    top: 5%;   
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #fff;
+    width: 50%;
+    left: 25%;
+    text-align: center;
+}
+
 
 
 /* Home page section styles */
@@ -102,27 +133,6 @@ header {
     font-size: 30px;
 }
 
-/* About page sections */
-#aboutpage {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    background-attachment: fixed;    
-
-}
-
-.about-page-text {
-    position: absolute;
-    top: 5%;   
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: #fff;
-    width: 75%;
-    left: 12.5%;
-    text-align: center;
-
-}
 
 /* Think page styling */
 
@@ -133,7 +143,7 @@ header {
     display: flex;
     padding: 10px;
     justify-content: center;
-
+   
 }
 
 .think-article  {
@@ -483,8 +493,8 @@ footer {
 
     .think-container {
         margin: 0 auto;
-        display: block;
-        column-count: 3;
+        display: flex;
+        column-count: 2;
         justify-content: center;
         
     }
@@ -562,8 +572,8 @@ footer {
 
     .think-container {
         margin: 0 auto;
-        display: block;
-        column-count: 3;
+        display: flex;
+        column-count: 2;
         justify-content: center;
         
     }
