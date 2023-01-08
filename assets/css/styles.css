@@ -49,8 +49,6 @@ header {
 /* Nav Menu styling */
 #menu-block {
     float: right;
-    
-    
 }
 
 #menu-block li {
@@ -77,7 +75,7 @@ header {
     text-align: center;
     font-size: 30px;
 }
-/* Background Image sections */
+/* Background Image style */
 #background-img-div {
   
     position: relative;
