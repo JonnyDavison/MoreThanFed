@@ -28,8 +28,8 @@ header {
     left: 0;
     top: 0;
     margin: 0;
+    z-index: 100;
     
-
 }
 
 /* Logo styling */
@@ -78,18 +78,22 @@ header {
     font-size: 30px;
 }
 /* Background Image sections */
-#background-img {
-    height: 100%;
-    width: 100%;
+#background-img-div {
+  
     position: relative;
     overflow: hidden;
-    background-attachment: fixed;    
-
+    
 }
-
+.background-img{
+    background-size: cover;
+    height: auto;
+    position: inherit;
+    min-height: 350vh
+}
+/* Container Holding text on main & sub pages */
 .textcontainter {
     position: absolute;
-    top: 5%;   
+    top: 2%;   
     padding-left: 10px;
     padding-right: 10px;
     background-color: #fff;
@@ -98,6 +102,7 @@ header {
     text-align: center;
     background-color: lightgrey;
     border-radius: 15px 50px 30px;
+    
 
 }
 .textcontainter-slim {
@@ -263,7 +268,7 @@ header {
     min-height: 200px;
     display: flex;
 }
-
+/* Food video */
 .peggychanvid {
     margin: auto;
 }
