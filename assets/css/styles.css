@@ -493,9 +493,18 @@ footer {
 
 /* 
 /* media quries*/
-/* for large to medium screens/tablets from 1200px down*/
-@media screen and (max-width: 1200px) {
-
+/* for large to medium screens/tablets from 1300px down*/
+@media screen and (max-width: 1300px) {
+    .page-logo {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        float: left;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 20px;
+        border: 1px solid slategray;
+    }
     .homepage-intro {
         width: 65%;
         height: auto;
@@ -514,6 +523,7 @@ footer {
 
     .menu-text {
         padding: 0;
+        font-size: 100%;
     }
 
     #menu-block>div {
@@ -521,27 +531,22 @@ footer {
         clear: both;
         height: 150px;
         padding: 0;
-
-
     }
-
+ 
     #menu-block {
-        margin-bottom: auto;
-        margin-top: 0;
+       margin: 0;
         width: 100%;
         text-align: center;
 
     }
-
     #menu-block li {
         display: inline-block;
         list-style-type: none;
-        margin: auto;
+        margin-right: 30px;
         text-decoration: none;
         position: relative;
-
     }
-
+  
     header {
         height: 200px;
     }
@@ -575,9 +580,9 @@ footer {
 
 }
 
-/* for medium screens from 950px width down*/
+/* for medium screens from 1200px width down*/
 
-@media screen and (max-width:950px) {
+@media screen and (max-width:1200px) {
     .page-logo {
         height: 50px;
         width: 50px;
@@ -627,14 +632,11 @@ footer {
         clear: both;
         height: 150px;
         padding: 0;
-
-
     }
 
     #menu-block {
         margin-bottom: auto;
         margin-top: 0;
-
     }
 
     #menu-block li {
@@ -1010,7 +1012,7 @@ footer {
         height: 75%;
     }
 }
-/* for small screen sizes less than 500px */
+/* for small screen sizes less than 400px */
 @media screen and (max-width: 400px) {
     .page-logo {
         height: 50px;
