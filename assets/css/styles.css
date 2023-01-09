@@ -129,19 +129,12 @@ header {
 
 
 /* Home page section styles */
-#home-page-hero {
-    height: 1200px;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-
-}
 
 .homepage-intro {
     position: absolute;
-    top: 25%;
+    top: 10%;
     color: #000000;
-    font-size: 40px;
+    font-size: 30px;
     background: #fff;
     width: 80%;
     left: 10%;
