@@ -1010,3 +1010,221 @@ footer {
         height: 75%;
     }
 }
+/* for small screen sizes less than 500px */
+@media screen and (max-width: 400px) {
+    .page-logo {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        border: 1px solid slategray;
+    }
+
+    .title-text {
+        margin: 15px 0px 0px 5px;
+        font-size: 175%;
+
+    }
+
+    .page-intro {
+        width: 75%;
+        height: auto;
+        margin-left: 10px;
+        margin-right: 5px;
+        padding-bottom: 10px;
+        font-size: 75%;
+
+    }
+
+    .page-intro>h2,
+    p {
+        text-align: center;
+    }
+
+    .menu-text>li {
+        margin-left: 12.5%;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+
+
+    .menu-text {
+        padding: 0;
+    }
+
+    #menu-block>div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+
+
+    }
+
+    #menu-block {
+        margin-bottom: auto;
+        margin-top: 0;
+
+    }
+
+    #menu-block li {
+        display: inline-block;
+        list-style-type: none;
+        margin-right: 30px;
+        text-decoration: none;
+        position: relative;
+    }
+
+    header {
+        height: 175px;
+    }
+
+
+    .textcontainter {
+        top: 10px;
+        height: auto;
+
+    }
+
+    /* Home page */
+    .homepage-intro {
+        width: 75%;
+        height: 400px;
+        margin-left: 10px;
+        margin-right: 5px;
+        padding-bottom: 10px;
+        top: 5%;
+    }
+
+    .homepage-intro>h2 {
+        margin: 0;
+        font-size: 125%;
+    }
+
+    .homepage-intro>h3 {
+        font-size: 80%;
+        padding-top: 10px;
+
+    }
+
+    #home-page-hero {
+        width: auto;
+        height: 950px;
+
+    }
+
+    /* About page */
+    .aboutpage-intro {
+        width: 75%;
+        height: auto;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-bottom: 10px;
+        top: 5%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .aboutpage-intro>h2 {
+        margin: 0;
+        font-size: 125%;
+        text-align: center;
+    }
+
+    .aboutpage-intro>h3 {
+        font-size: 80%;
+        padding-top: 10px;
+        text-align: center;
+
+    }
+
+    .homepage-intro>h2 {
+        margin: 0;
+        font-size: 125%;
+    }
+
+    .aboutpage-intro>p {
+        font-size: 80%;
+        padding-top: 10px;
+
+    }
+
+    /* Think page*/
+    .think-container {
+        margin: 0 auto;
+        display: grid;
+        column-count: 1;
+
+    }
+
+    .think-image {
+        width: 100%;
+        height: 100%;
+        margin: 20 auto;
+
+    }
+
+    .danbarbervid {
+        width: 75%;
+        height: auto;
+        padding: 0px 5px 0px 5px;
+    }
+
+    /* Food page */
+    .food-container {
+        margin: 0 auto;
+        display: grid;
+        column-count: 1;
+
+    }
+
+    .food-image {
+        width: 100%;
+        height: 100%;
+        margin: 20 auto;
+
+    }
+
+    .peggychanvid {
+        width: 75%;
+        height: auto;
+        padding: 0px 5px 0px 5px;
+    }
+
+    article {
+        padding: 0 2px 10px 2px;
+
+    }
+
+    article>h1 {
+        font-size: 20px;
+    }
+
+    article>h2 {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    article>p {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    article>ul {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    table {
+        font-size: 19px;
+    }
+
+    .map {
+        width: 75%;
+        height: 75%;
+    }
+}
