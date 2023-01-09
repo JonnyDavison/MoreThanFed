@@ -13,7 +13,7 @@ body {
 .title-text {
     display: inline-block;
     margin-top: 40px;
-    font-family: Roboto Condensed, Karla, sans-serif;
+    font-family: "Roboto Condensed", Karla, sans-serif;
     color: lightgrey;
     font-weight: 100;
     text-transform: uppercase;
