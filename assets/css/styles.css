@@ -23,7 +23,6 @@ body {
 header {
     background-color: #005C3F;
     height: 175px;
-    position: fixed absolute;
     width: 100%;
     left: 0;
     top: 0;
