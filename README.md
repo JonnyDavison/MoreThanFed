@@ -5,12 +5,16 @@
 We provide informative content for inquisitive minds. More Than Fed makes eating local, fresh produce seem less of a challenge with accessible ways to make sustainable, ethical changes. We believe that when you know where your food has come from, who produced it and the effort that went into getting it from field to fork, then you are more likely to appreciate it’s true value. 
 
 We want to offer up interesting debates about the food industry. How our food is produced, and why it matters.
- /* Insert project goals
+
+## Project goals
+The goal of More Than Fed is to educate, inform and enlighten the user on sustaibility surrounding the food industry by discussing thought provoking topics openly, aiming to arrive at viable solutions. 
+
+
 /* target audiance
 /* Insert screen shot of Am I responsive*/
 Deployed at : XYZ github
 
-explains its purpose, the value that it provides to its users, and the deployment procedure.
+
 
 ## Features 
 Insert screenshots of the project features, give a brief description of what each feature does and explain its value to the user
