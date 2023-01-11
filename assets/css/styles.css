@@ -150,6 +150,10 @@ h3 {
 .homepage-intro h3 {
     font-size: 30px;
 }
+.click-through {
+    color: #000000;
+    text-decoration: underline;   
+}
 
 /* About page */
 
