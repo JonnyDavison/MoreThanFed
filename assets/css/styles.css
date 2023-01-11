@@ -135,6 +135,7 @@ header {
     font-size: 30px;
     background: #fff;
     width: 80%;
+    height: auto;
     left: 10%;
     padding-right: 20px;
     text-align: right;
@@ -509,9 +510,10 @@ footer {
         border: 1px solid slategray;
     }
     .homepage-intro {
-        width: 65%;
+        width: 75%;
         height: auto;
         margin: 0 auto;
+        padding-bottom: 10px;
     }
 
 
@@ -609,8 +611,8 @@ footer {
         margin-left: 10px;
         margin-right: 5px;
         padding-bottom: 10px;
-
-
+        font-size: 25px;
+       
     }
 
     .page-intro>h2,
@@ -664,10 +666,10 @@ footer {
     /* Home page */
     .homepage-intro {
         width: 75%;
-        height: 250px;
+        height: 300px;
         margin-left: 10px;
         margin-right: 5px;
-        padding-bottom: 10px;
+        padding-bottom: 15px;
         top: 5%;
     }
 
