@@ -85,24 +85,25 @@ The features added have been done to encourage excellent user experience, ease o
     - Responisveness testing
 
 
-## Testing 
-Testing throughout the development process ensureed the fuctionality and flow gave both good UX and UI. Further testing lead to format changes for the images to reduce their size, further increasing the loading speeds and better UX. 
 
-As devoplment moved to responsiveness, there was increases to the break point px and a furhter break point added to imporve results.  
+## Testing 
+Testing throughout the development process ensured the functionality and flow gave both good UX and UI. Further testing led to format changes for the images to reduce their size, further increasing the loading speeds and better UX. 
+
+As development moved to responsiveness, there were increases to the breakpoint px, and a further break point was added to improve results.  
 
 - Broweser tests on Chrome, Firefox and Safari
-    - Note that old verison of safari do not support .webp image format
-- Responsiveness tests Chrome dev tools
+    - Note that older versions of safari do not support .webp image format
+- Responsiveness tests, Chrome dev tools
     - Tests reulted in additional breakpoints
 -  Accessibilty 
     - All components meet accessibity expectations, contrast and readability 
 - Internal Links 
-    - Flow and assit the navigation of the site
+    - Flow and assist the navigation of the site
 - External Links    
-    - To further reasorces, including social media, open in seperate tab to assist UX navigation
+    - To further resources, including social media, open in separate tab to assist UX navigation
 - Newsletter & Sign Up forms
-    - Function as expected, both contain required feilds including email address
-    - Note that the forms share to a CI form dump as the site is built for educationl purposes only 
+    - Function as expected; both contain required fields including email address
+    - Note that the forms share to a CI form dump as the site is built for educational purposes only 
 
 
 ## Light house report
@@ -135,30 +136,28 @@ This site is deployed through GitHub pages
 Deployment method   
 - Enter the GitHub repository
 - Navigate to 'Settings'
-- On the left side of the page hit 'Pages'
-- Scroll to 'Build and deployment'
+- On the left side of the page, hit 'Pages'
+- Scroll to 'Build and deployment.'
 - Set source to 'Deploy from a branch'
 - Below in 'Branch' select 'main' and 'root' 
-- The page will refresh and a banner will appear to confiurm succeful deployment 
+- The page will refresh, and a banner will appear to confirm successful deployment 
 - the link will be in the banner along with 'Visit site'
 
-N.B - it may take a few minuits to build/deploy
+N.B - it may take a few minutes to build/deploy
 
 
 
 ## Credits 
 
 ### Code 
-Support and resourses found at
+Support and resources found at
 - [Stack Overflow](https://stackoverflow.com/)
 - [W3school](https://www.w3schools.com/)
 
 ### Content
-Images - where created and owned by the developer Jonny Davison, from a real world project. 
+Images - were created and owned by the developer Jonny Davison from an actual real-world project. 
 
 Video - Content and embed code from [YouTube](https://www.youtube.com/)
 
 ### Acknowledgements
-- Course marterial at Code Institute, including ['Love running'](https://github.com/Code-Institute-Solutions/readme-template)
-- Stack
-
+- Course material at Code Institute, including ['Love running'](https://github.com/Code-Institute-Solutions/readme-template)
