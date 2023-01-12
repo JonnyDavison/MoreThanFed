@@ -43,25 +43,25 @@ The features added have been done to encourage excellent user experience, ease o
 
 ![MTF Nav Bar](images/mtfnavbar.webp)
 
-- The footer 
-    - The tag line keeps the user engaged with the subject matter in a clear and concise way
-    - Social Media links for More Than Fed encouraging engagement, these open on a new tab for easy user navigation
-    - The © shows the ownership of the content and website
-     
-![MTF Footer](images/mtffooter.webp)
-
 - Home Page (index.html)
-    - Welcomes and invites users via a call to action to navigate throught the site
+    - Welcomes and invites users via a call to action to navigate through the site
 - About Page (about.html)
-    - Provding furhter information about More Than Fed
+    - Providing further information about More Than Fed
 - Think Page (think.html)
-    - Holds and displays articles, and video content
+    - Holds and displays articles and video content
 - Food Page (food.html)
     - Displays recipe option and video content
 - Newsletter Page (newsletter.html)
     - Sign up for newsletter, updates and content direct
 - Contact Page (contact.html)
-    - Added value through interaction between More Than Fed and end user
+    - Added value through interaction between More Than Fed and end-user
+- The footer 
+    - The tag line keeps the user engaged with the subject matter in a clear and concise way
+    - Social Media links for More Than Fed encouraging engagement, these open on a new tab for easy user navigation
+    - The © shows the ownership of the content and website
+     
+        ![MTF Footer](images/mtffooter.webp)
+
 
 ## Technologies Used
  ### Languages 
@@ -73,7 +73,6 @@ The features added have been done to encourage excellent user experience, ease o
      - Library used to imnport "Karla", "Roboto Condensed" &"Courier New" used throughout
 2. [Hover.css](https://www.w3schools.com/cssref/sel_hover.php)      
     - Styling of the Nav elements, to increase UX/UI 
-
 3. [Font Awesome](https://fontawesome.com/)
     - Added aesthetic and improved UX with recognisable icons
 4. [Git Hub](https://github.com/JonnyDavison/MoreThanFed)
@@ -91,11 +90,19 @@ Testing throughout the development process ensureed the fuctionality and flow ga
 
 As devoplment moved to responsiveness, there was increases to the break point px and a furhter break point added to imporve results.  
 
-- tested on chrome, fire fox, safari 
-- responsiveness using Chrome dev tools 
-- nav menu, log, title all easy to read and meet accessability expectations
-- all the links work and open to a seperate page
-- both form work and have required feilds, email feild will only accept email address 
+- Broweser tests on Chrome, Firefox and Safari
+    - Note that old verison of safari do not support .webp image format
+- Responsiveness tests Chrome dev tools
+    - Tests reulted in additional breakpoints
+-  Accessibilty 
+    - All components meet accessibity expectations, contrast and readability 
+- Internal Links 
+    - Flow and assit the navigation of the site
+- External Links    
+    - To further reasorces, including social media, open in seperate tab to assist UX navigation
+- Newsletter & Sign Up forms
+    - Function as expected, both contain required feilds including email address
+    - Note that the forms share to a CI form dump as the site is built for educationl purposes only 
 
 
 ## Light house report
