@@ -9,6 +9,7 @@ body {
 .title-text {
     display: inline-block;
     margin-top: 40px;
+    margin-bottom: 0;
     font-family: "Roboto Condensed", Karla, sans-serif;
     color: lightgrey;
     font-weight: 100;
@@ -18,7 +19,7 @@ body {
 /* Header styleing */
 header {
     background-color: #005C3F;
-    height: 175px;
+    height: 200px;
     width: 100%;
     left: 0;
     top: 0;
@@ -102,12 +103,15 @@ footer {
     margin-right: 30px;
     text-decoration: none;
     position: relative;
+    font-size: 125%;
+ 
 }
 
 .menu-text a {
     color: #FFC745;
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
+    
 }
 
 #menu a:hover {
@@ -473,8 +477,8 @@ table {
 /* Large to medium screens/tablets from 1300px down*/
 @media screen and (max-width: 1300px) {
     .page-logo {
-        height: 50px;
-        width: 50px;
+        height: 100px;
+        width: 100px;
         border-radius: 50%;
         float: left;
         margin-left: 40px;
@@ -524,6 +528,7 @@ table {
         margin-right: 30px;
         text-decoration: none;
         position: relative;
+        font-size: 175%;
     }
 
     header {
@@ -561,8 +566,8 @@ table {
 
 @media screen and (max-width:1200px) {
     .page-logo {
-        height: 50px;
-        width: 50px;
+        height: 100px;
+        width: 100px;
         border-radius: 50%;
         float: left;
         margin-left: 40px;
@@ -572,8 +577,9 @@ table {
     }
 
     .title-text {
-        margin: 15px 0px 0px 5px;
-        font-size: 250%;
+        margin: 40px 0px 0px 5px;
+        font-size: 350%;
+     
     }
 
     .page-intro {
@@ -591,9 +597,10 @@ table {
     }
 
     .menu-text>li {
-        margin-left: 12.5%;
+        margin-left: 2%;
         margin-right: auto;
         justify-content: center;
+        
     }
 
     .menu-text {
@@ -618,10 +625,11 @@ table {
         margin-right: 30px;
         text-decoration: none;
         position: relative;
+        font-size: 150%;
     }
 
     header {
-        height: 175px;
+        height: 200px;
     }
 
 
@@ -790,7 +798,7 @@ table {
     }
 
     .menu-text>li {
-        margin-left: 12.5%;
+        margin-left: 5%;
         margin-right: auto;
         justify-content: center;
     }
@@ -814,9 +822,11 @@ table {
     #menu-block li {
         display: inline-block;
         list-style-type: none;
-        margin-right: 30px;
+        margin-right: 0;
         text-decoration: none;
         position: relative;
+        font-size: 120%;
+        
     }
 
     header {
@@ -992,7 +1002,7 @@ table {
     }
 
     .menu-text>li {
-        margin-left: 12.5%;
+        margin-left: 0;
         margin-right: auto;
         justify-content: center;
     }
@@ -1018,13 +1028,13 @@ table {
     #menu-block li {
         display: inline-block;
         list-style-type: none;
-        margin-right: 30px;
+        margin-right: 10px;
         text-decoration: none;
         position: relative;
     }
 
     header {
-        height: 175px;
+        height: 150px;
     }
 
 
