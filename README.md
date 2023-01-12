@@ -4,60 +4,64 @@
 [Visit Repository](https://github.com/JonnyDavison/MoreThanFed)
 
 ## [More Than Fed](https://jonnydavison.github.io/MoreThanFed/index.html) was created to connect with people who care about what they eat, sustainability and the ethics surrounding food.
- 
-We provide informative content for inquisitive minds. More Than Fed makes eating local, fresh produce seem less of a challenge with accessible ways to make sustainable, ethical changes. We believe that when you know where your food has come from, who produced it and the effort that went into getting it from field to fork, then you are more likely to appreciate it’s true value. 
+We provide informative content for inquisitive minds. More Than Fed makes eating local, fresh produce seem less of a challenge with accessible ways to make sustainable, ethical changes. We believe that you are more likely to appreciate its true value when you know where your food has come from, who produced it and the effort that went into getting it from field to fork.
 
-We want to offer up interesting debates about the food industry. How our food is produced, and why it matters.
+We want to offer up exciting debates about the food industry. How our food is produced, and why it matters.
+
 
 ![Am I responsive image of MTF](images/mtfamiresponsive.webp)
 
 
 ## Project goals
-The goal of More Than Fed is to educate, inform and enlighten the user on sustaibility surrounding the food industry by discussing thought provoking topics openly, aiming to arrive at viable solutions. 
+More Than Fed aims to educate, inform and enlighten the user on sustainability surrounding the food industry by discussing thought-provoking topics openly, aiming to arrive at viable solutions. 
 
-### Target audiance
-The target audience aims to engage with a broad demographic of people whio care about what they eat, its effects on the planet and others around them. The goal is to promote to likeminded people as well as grow the understadning and audince for this content. 
+### Target audience
+The target audience aims to engage with a broad demographic of people who care about what they eat and its effects on the planet and others around them. The goal is to promote to like-minded people and grow the understanding and audience for this content. 
 
-### First Time Visitor:
+### First-Time Visitor:
 - I want to understand the core purpose of the website and learn more about sustainability 
-- Easy navigation, making dicovery of information easy and a positive experince
+- Easy navigation, making the discovery of information accessible and a positive experience
 - Check their social media for current events
 
-### Reutning Visitor
-- I want to find articles and recipes thati can read and try
+### Returning Visitor
+- I want to find articles and recipes to read and try
 - Find contact details and ask any questions I may have
 - follow up on social media and join the conversation
 
 ### Frequent Visitor
 - Visit newly added content
-- Sign up to the Newsletter
+- Sign up for the Newsletter
 - Interact by sharing thoughts and ideas
-
 
 ## Features 
 
-The features added have been done to encourage great user experieance, ease of use and natural flow. 
+The features added have been done to encourage excellent user experience, ease of use and natural flow. 
 
 - Navigation bar
-    - Featured on all site pages, the responsive design flows on any device. The Navigation bar leads you through, Home, About, Think, Food, Newsletter and Contact
-    - This section allows easy access throughout the site on any device directing you to the different sections. 
+    - Featured on all site pages, the responsive design flows on any device. The Navigation bar leads you through Home, About, Think, Food, Newsletter and Contact
+    - This section allows easy access throughout the site on any device, directing you to the different sections. 
 
 ![MTF Nav Bar](images/mtfnavbar.webp)
 
 - The footer 
-    - The tag lines keeps the user enagaed with the subject matter in a clear and conscise way
-    - Social Media links for More Than Fed encouraging engagemnt, these open on a new tab for easy user navigation
+    - The tag line keeps the user engaged with the subject matter in a clear and concise way
+    - Social Media links for More Than Fed encouraging engagement, these open on a new tab for easy user navigation
     - The © shows the ownership of the content and website
      
 ![MTF Footer](images/mtffooter.webp)
 
 - Home Page (index.html)
+    - Welcomes and invites users via a call to action to navigate throught the site
 - About Page (about.html)
+    - Provding furhter information about More Than Fed
 - Think Page (think.html)
+    - Holds and displays articles, and video content
 - Food Page (food.html)
+    - Displays recipe option and video content
 - Newsletter Page (newsletter.html)
+    - Sign up for newsletter, updates and content direct
 - Contact Page (contact.html)
-- Articles (think-a*.html, food-a*.html)
+    - Added value through interaction between More Than Fed and end user
 
 ## Technologies Used
  ### Languages 
@@ -99,20 +103,55 @@ As devoplment moved to responsiveness, there was increases to the break point px
 
 
 ## W3C html & CSS validator 
-
+HTML & CSS3 both validated on the W3C validation as below.
+![HTML Validation](images/htmlvalidation.webp)
+![CSS3 Validation](images/css3validation.webp)
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+            
+Valid CSS!
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+    </a>
+</p>
+        
 ## Deployment
+This site is deployed through GitHub pages
+Deployment method   
+- Enter the GitHub repository
+- Navigate to 'Settings'
+- On the left side of the page hit 'Pages'
+- Scroll to 'Build and deployment'
+- Set source to 'Deploy from a branch'
+- Below in 'Branch' select 'main' and 'root' 
+- The page will refresh and a banner will appear to confiurm succeful deployment 
+- the link will be in the banner along with 'Visit site'
 
-## Content/media 
-The content was created by myself, Jonny Davison, from a previos real world project. 
+N.B - it may take a few minuits to build/deploy
 
-## Credit 
-Code insta
-font awsome 
-love running proiject 
-stack overflow
-W3C HTML validator 
-W3C CSS validatator 
-OpenAI chat GPT
-Am I resoponsive 
-youtube
-love running 
+
+
+## Credits 
+
+### Code 
+Support and resourses found at
+- [Stack Overflow](https://stackoverflow.com/)
+- [W3school](https://www.w3schools.com/)
+
+### Content
+Images - where created and owned by the developer Jonny Davison, from a real world project. 
+
+Video - Content and embed code from [YouTube](https://www.youtube.com/)
+
+### Acknowledgements
+- Course marterial at Code Institute, including ['Love running'](https://github.com/Code-Institute-Solutions/readme-template)
+- Stack
+
