@@ -840,9 +840,9 @@ table {
     }
 
     /* Home page */
-    .homepage-intro {
+    .homepage-intro  {
         width: 75%;
-        height: 250px;
+        height: auto; 
         margin-left: 10px;
         margin-right: 5px;
         padding-bottom: 10px;
@@ -1046,7 +1046,7 @@ table {
     /* Home page */
     .homepage-intro {
         width: 75%;
-        height: 550px;
+        height: auto;
         margin-left: 10px;
         margin-right: 5px;
         padding-bottom: 10px;
