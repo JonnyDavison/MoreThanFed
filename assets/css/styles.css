@@ -588,7 +588,7 @@ table {
         margin-left: 10px;
         margin-right: 5px;
         padding-bottom: 10px;
-        font-size: 25px;
+        font-size: 150%;
     }
 
     .page-intro>h2,
@@ -793,7 +793,7 @@ table {
         margin-left: 10px;
         margin-right: 5px;
         padding-bottom: 10px;
-        font-size: 75%;
+        font-size: 150%;
     }
 
     .page-intro>h2,
