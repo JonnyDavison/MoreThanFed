@@ -50,12 +50,12 @@ The features added have been done to encourage excellent user experience, ease o
 - Think Page (think.html)
     - Holds and displays articles and video content
 - Food Page (food.html)
-    - Displays recipe option and video content
+    - Displays recipes and video content
 - Newsletter Page (newsletter.html)
     - Sign up for newsletter, updates and content direct
 - Contact Page (contact.html)
     - Added value through interaction between More Than Fed and end-user
-- The footer 
+- The Footer 
     - The tagline keeps the user engaged with the subject matter in a clear and concise way
     - Social Media links for More Than Fed encouraging engagement, these open on a new tab for easy user navigation
     - The © shows the ownership of the content and website
